@@ -82,6 +82,7 @@
 .image-gallery {
     display: flex;
     gap: 48px;
+    justify-content: center;
 }
 
 .image {
@@ -133,4 +134,41 @@
     color: #1F2937;
     align-self: flex-end;
     margin-right: 5%;
+}
+
+.section4 {
+    padding: 100px 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.call-to-action-container {
+    flex: 1;
+    background-color: #3882f6;
+    height: 150px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.left-content h3 {
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+}
+
+.left-content p {
+    color: rgb(233, 227, 227);
+    font-size: 18px;
+}
+
+.call-to-action-container button {
+    height: 40px;
+    width: 150px;
+    border-radius: 12px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
 }
